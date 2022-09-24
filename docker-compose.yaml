@@ -1,0 +1,13 @@
+version: "3"
+services:
+  twitter-translate:
+    build:
+      context: "."
+      dockerfile: "./Dockerfile"
+    entrypoint: ["./twitter-translate"]
+    environment:
+      HOST: "0.0.0.0"
+      PORT: "5000"
+      SERVICE_NAME: "twitter-translate"
+    ports:
+      - "5000:5000"
