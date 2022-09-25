@@ -33,7 +33,7 @@ A significant extra complication for the installation is that the translation is
 
 Given the whole thing doesn't function to completion, I wouldn't bother trying to install it.
 
-If you definitely want to, you'll need [Golang 1.17](https://go.dev/doc/install). Then:
+If you definitely want to, you'll need [Golang 1.17](https://go.dev/doc/install), and to [install](https://cloud.google.com/sdk/docs/install) and [authenticate](https://cloud.google.com/sdk/gcloud/reference/auth/application-default) gcloud. Then:
 ```
 go mod download
 make build
