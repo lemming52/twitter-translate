@@ -1,5 +1,7 @@
 # Twitter Translation
 
+![](docs/media/babel.png)
+
 ## Team Members
 Andrew: https://github.com/lemming52
 
