@@ -2,6 +2,7 @@ package translate
 
 import (
 	"context"
+
 	log "github.com/sirupsen/logrus"
 )
 
@@ -16,7 +17,7 @@ func NewService(translator TranslatorClient, cache Cache) *Service {
 		translator: translator,
 		cache:      cache,
 		lgr: log.WithFields(log.Fields{
-			"pkg": "pokemon",
+			"pkg": "translate",
 		}),
 	}
 }
@@ -42,7 +43,9 @@ func (s *Service) getTranslation(ctx context.Context, t *Translation) error {
 		s.lgr.WithError(err).Info("failed to retrieve from cache")
 	}
 	translated, err := s.translator.Translate(ctx, t.Text, t.Language)
+	s.lgr.Info(translated)
 	if err != nil {
+		s.lgr.WithError(err).Error("failed to translate")
 		return err
 	}
 	t.Translation = translated

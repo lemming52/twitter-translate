@@ -1,0 +1,18 @@
+{
+    "name": "Lemming's Twitter Translator",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Opens twitter searches for translated versions of a text string",
+    "host_permissions": [
+        "http://localhost:5000/*",
+        "https://twitter.com/search*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "action": {}
+}
