@@ -15,7 +15,9 @@ The tool is designed to consist of two components, a backend API that manages th
 In terms of points from the spreadsheet, I viewed this as useful as it seemed others had wanted thematically similar tools:
 
 > A tool that helps find the right search terms
+
 > A tool that suggests different ways of spelling a name
+
 > Online databases for terms in different languages
 
 ### *HACKATHON NOTES*
