@@ -33,3 +33,7 @@ Here, the `getLinks` command makes a request for several translations of `melito
 ![Tabs all opened and launched](docs/media/launched.png)
 
 Once run, you can see the generated links and the launched tabs.
+
+## Video
+
+[Bonus secret video link](https://youtu.be/RxtdXn6gDDE).
