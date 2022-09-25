@@ -20,7 +20,7 @@ In terms of points from the spreadsheet, I viewed this as useful as it seemed ot
 
 ### *HACKATHON NOTES*
 
-This tool is for all intents and purposes, unusable for anyone but me in this form. With that in mind, please don't bother spending much time on grading this, all that would be interesting or useful is if this seems useful for anyone but me. I advise against trying to install it, and suggest just reading this doc and the brief mocked guide.
+This tool is for all intents and purposes, unusable for anyone but me in this form. With that in mind, please don't bother spending much time on grading this, all that would be interesting or useful is if this seems useful for anyone but me. I advise against trying to install it, and suggest just reading this doc and the [brief mocked guide](https://github.com/lemming52/twitter-translate/blob/master/demo.md).
 
 ## Installation
 At the time of writing, installation for this tool is very difficult and not guaranteed to work. The hope was an end user would only have to install the chrome extension.
@@ -45,7 +45,7 @@ The envisioned usage was as follows:
 2. User enters search term, selects languages from permitted subset, hits execute
 3. User has tabs launched per language, can analyse as required.
 
-To show what we have currently, please look at the demonstration doc, but be aware that this is intended to demonstrate the functionality in lieu of installing, and also to highlight the current barely existant nature of the tool.
+To show what we have currently, please look at the [demonstration doc](https://github.com/lemming52/twitter-translate/blob/master/demo.md), but be aware that this is intended to demonstrate the functionality in lieu of installing, and also to highlight the current barely existent nature of the tool. If interested, there's also a short video that can be provided on request.
 
 ## Additional Information
 
